@@ -173,7 +173,7 @@ span.tooltip span {
   left: 50%;
   margin-left: -100px;
   position: absolute;
-  z-index: 50;
+  z-index: 1;
 }
 
 /* styling for tooltip bubble arrow */
@@ -186,5 +186,5 @@ span.tooltip span::after {
   border-width: 5px;
   border-style: solid;
   border-color: darkolivegreen transparent transparent transparent;
-  z-index: 50;
+  z-index: 2;
 }
